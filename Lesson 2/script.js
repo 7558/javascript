@@ -231,3 +231,14 @@ function starts() {
     alert(" null >= 0 = true потому что null не больше 0, а значит равняет. Если null не больше и не меньше 0, значит он равняет нулю. Всё логично и довольно интересно.");
 }
 
+/*8. *С помощью рекурсии организовать функцию возведения числа в степень. Формат: function power(val, pow), где val – заданное число, pow – степень. */
+alert("Задание №8.")
+
+function power(val, pow) {
+    if (pow == 1) {
+        return val;
+    } else {
+        return val * power(val, pow - 1)
+    }
+}
+alert(power(2, 2))
