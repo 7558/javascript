@@ -36,3 +36,124 @@ b = -b
 alert("Если отрицательные. Их произведение: " + (a * b))
 a = -a
 alert("Если a и b разных закнов, вывести их сумму: " + (a + b))
+
+/*4. Присвоить переменной а значение в промежутке [0..15]. С помощью оператора switch организовать вывод чисел от a до 15.*/
+
+var a = prompt("Введите число от 0 до 15: ");
+var count = 0;
+a = Number(a);
+switch (count) {
+    case 0:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 1:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 2:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 3:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 4:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 5:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 6:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 7:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 8:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 9:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 10:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 11:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 12:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 13:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 14:
+        alert(count);
+        if (count === a) {
+            alert("Всё");
+            break;
+        }
+        count++;
+    case 15:
+        alert(count);
+        alert("Всё. Где цикл. Зачем столько кода...")
+        if (count === a) {
+            break;
+        }
+
+
+}
