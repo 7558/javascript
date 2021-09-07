@@ -216,7 +216,18 @@ function starts() {
 
     } while (counter != 1);
 
-    request1 = Number(request1)
-    request2 = Number(request2)
-    alert(mathOperation(request1, request2, request3))
+    request1 = Number(request1);
+    request2 = Number(request2);
+    alert(mathOperation(request1, request2, request3));
+    /*7. *Сравнить null и 0. Попробуйте объяснить результат. */
+    alert("Ззадание №7.")
+    a = null;
+    b = 0;
+    alert(a > b);
+    alert("null > 0 = false потому что js приводит null к числу 0 и 0 не больше 0.");
+    alert(a == b);
+    alert("null == 0 = false потому что в js данное значение установлено по умолчанию.");
+    alert(a >= b);
+    alert(" null >= 0 = true потому что null не больше 0, а значит равняет. Если null не больше и не меньше 0, значит он равняет нулю. Всё логично и довольно интересно.");
 }
+
