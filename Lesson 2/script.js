@@ -157,3 +157,30 @@ switch (count) {
 
 
 }
+
+/*5. Реализовать основные 4 арифметические операции в виде функций с двумя параметрами. Обязательно использовать оператор return. */
+
+function adding(x, y) {
+    result = x + y;
+    return result;
+}
+
+function subtraction(x, y) {
+    result = x - y;
+    return result;
+}
+
+function devision(x, y) {
+    result = x / y;
+    return result;
+}
+
+function multiplication(x, y) {
+    result = x * y;
+    return result;
+}
+
+alert("Результат сложение 5 + 5 = " + adding(5, 5))
+alert("Результат вычитания 5 - 5 = " + subtraction(5, 5))
+alert("Результат деление 5 / 5 = " + devision(5, 5))
+alert("Результат умножения 5 * 5 = " + multiplication(5, 5))
